@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sessions in node.js</title>
+	<link rel="stylesheet" type="text/css" href="/stylesheet/styles.css">
+</head>
+<body >
+	<div id="login">
+		<h2>Login</h2>
+		<form method='GET' action='/login'>
+			<div class="user">
+				<p>Username</p>
+				<input type='text' name='username' />
+			</div>
+			<div class="psswrd">
+				<p>Password</p>
+				<input type='text' name='password' />
+			</div>
+			<input type='submit'/>
+		</form>
+	</div>
+	<div id="signup">
+		<h2>Sign up</h2>
+		<form method='POST' action='/signup'>
+			<div class="user">
+				<p>Username</p>
+				<input type='text' name='username' />
+			</div>
+			<div class="psswrd">
+				<p>Password</p>
+				<input type='text' name='password' />
+			</div>
+			<input type='submit'/>
+		</form>
+	</div>
+	<h4 style="padding-top:230px">See secret message</h4>
+	<button><a href="/message">SECRET</a></button>
+</body>
+</html>
